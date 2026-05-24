@@ -215,7 +215,7 @@ function Dashboard({ cartItems = [] }) {
             
           ))}
         </div>
-        <button><a href="Products.js">View Products</a></button>
+        
       </section>
 
       {/* ABOUT MODAL OVERLAY */}
