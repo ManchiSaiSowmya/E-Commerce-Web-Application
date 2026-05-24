@@ -8,7 +8,7 @@ export default function Login({ onLoginSuccess }) {
 
   // Dynamically set whether we are logging in or registering based on the URL path
   const [isLogin, setIsLogin] = useState(true);
-  const [backendStatus, setBackendStatus] = useState("checking"); // checking, online, offline
+  const [backendStatus] = useState(""); // checking, online, offline
   const [message, setMessage] = useState({ text: "", type: "" }); // type: "error" | "success"
   useEffect(() => {
     // If the browser URL is /register, set mode to false (Registration mode)
